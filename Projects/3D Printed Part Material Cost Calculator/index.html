@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>3D Printed Part Material Cost Calculator</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="content" class="container col-lg-12">
+	<div id="calculator" class="center-block">
+	<h1>3D Printed Part Material Cost Calculator</h1>
+	
+	<p>This tool will help you figure out your material costs when 3D Printing a part.</p>
+	
+	<p>
+    The formula used is: Cost = ( Spool Cost / ( Spool Weight / 1000 ) * Part Weight )    
+</p>
+	
+	
+	<div id="questions" class="center-block">
+
+    	<label for="filament-cost">How much did your filament spool cost?</label>
+		<div class="input-group col-xs-2 col-centered">
+		  <span class="input-group-addon">$</span>
+		  <input id="filament-cost" type="text" class="form-control" value="28"/>
+		</div>
+		
+		<label for="spool-weight">How much did your filament spool weigh when it was purchased?</label>		
+		<div class="input-group col-xs-2 col-centered">
+		  <input id="spool-weight" type="text" class="form-control" value="1">
+		  <span class="input-group-addon">kg</span>
+		</div>
+		
+		<label for="part-weight">Weigh your part, how much does it weigh?</label>
+		<div class="input-group col-xs-2 col-centered">
+		  	<input id="part-weight" type="text" class="form-control" value="250">
+		  <span class="input-group-addon">g</span>
+		</div>
+		
+	</div>
+	
+	<div id="results" class="center-block">
+    <h2>Your part contains <div id="cost"></div> of material.</h2>
+	</div>
+	
+	
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

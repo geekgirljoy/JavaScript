@@ -1,0 +1,29 @@
+body{
+  background-color: #50A6C2;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: .5cm;
+}
+p {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: .5cm;
+}
+label{margin-top: .3cm;}
+#questions{
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: .5cm;
+}
+#results{
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: .5cm;
+}
+#cost{}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

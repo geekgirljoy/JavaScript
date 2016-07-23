@@ -1,0 +1,42 @@
+body {
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#content {
+  width: 100%;
+}
+
+#buttonbar {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  text-align: center;
+  color: #00ff00;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#button1 {
+  background-color: #fd9302;
+}
+
+#button2 {
+  background-color: #02fd15;
+}
+
+#button3 {
+  background-color: #026cfd;
+}
+
+#button4 {
+  background-color: #fd02e9;
+}

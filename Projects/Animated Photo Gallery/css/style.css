@@ -1,0 +1,32 @@
+body {
+  background-color: #ffffff;
+  font-family: Verdana;
+}
+
+img {
+  margin: 5px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 30px 30px;
+  max-width: 50%;
+}
+
+td {
+  padding: 10px;
+}
+td:hover{
+  background-color: #DDDDDD;
+}
+
+.table-centered {
+  margin: 50px auto !important;
+  float: none !important;
+}
+
+.shadowed {
+  -moz-box-shadow: 3px 3px 5px 6px #999;
+  -webkit-box-shadow: 3px 3px 5px 6px #999;
+  box-shadow: 3px 3px 5px 6px #999;
+}

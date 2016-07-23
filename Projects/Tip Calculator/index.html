@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Tip Calculator</title>
+	
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+	<div id="content" class="container col-lg-12">
+		<div id="calculator" class="center-block">
+		<h1>Tip Calculator</h1>
+		
+		<p>This tool will help you figure out how much you should tip.</p>
+		
+		<div id="questions" class="center-block">
+
+			<label for="bill-amount">How much is your bill?</label>
+			<div class="input-group col-xs-2 col-centered">
+			  <span class="input-group-addon">$</span>
+			  <input id="bill-amount" type="text" class="form-control" value="13.75"/>
+			</div>
+			
+			<label for="tip-percentage">What percentage would you like to tip?</label>		
+			<div class="input-group col-xs-2 col-centered">
+			  <input id="tip-percentage" type="text" class="form-control" value="15">
+			  <span class="input-group-addon">%</span>
+				  <div class="pull-right">
+					<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-refresh"></span> Recalculate</button>
+				  </div>
+			</div>
+			
+		</div>
+		
+		<div id="results" class="center-block">
+			<h3>Your tip should be: <div id="tip"></div></h3>
+			<h3>Your total bill is: <div id="bill"></div></h3>
+		</div>
+		
+		
+	  </div>
+	</div>
+    
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="tipcalculatorscript.js"></script>
+</body>
+</html>

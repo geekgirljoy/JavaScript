@@ -1,0 +1,43 @@
+ Volume in drive C is Acer
+ Volume Serial Number is 3A81-1047
+
+ Directory of C:\Users\Joy\Documents\GitHub\JavaScript\Loose Code
+
+07/23/2016  09:57 AM    <DIR>          .
+07/23/2016  09:57 AM    <DIR>          ..
+01/28/2016  12:08 AM               981 Arguments Optional.js
+01/28/2016  12:08 AM               574 Binary Agents.js
+01/28/2016  12:08 AM               241 Boo who.js
+01/28/2016  12:08 AM             1,261 Caesars Cipher.js
+01/28/2016  12:08 AM               538 Check for Palindromes.js
+01/28/2016  12:08 AM               399 Chunky Monkey.js
+01/28/2016  12:08 AM               324 Confirm the Ending of a String.js
+01/28/2016  12:08 AM               473 Diff Two Arrays.js
+01/28/2016  12:08 AM               852 DNA Pairing.js
+01/28/2016  12:08 AM               568 Drop it.js
+01/28/2016  12:08 AM               957 Everything Be True.js
+01/28/2016  12:08 AM               479 Factorialize a Number.js
+01/28/2016  12:08 AM               273 Falsy Bouncer.js
+01/28/2016  12:08 AM               431 Find the Longest Word in a String.js
+07/23/2016  09:57 AM                 0 list.txt
+01/28/2016  12:08 AM               799 Missing letters.js
+01/28/2016  12:08 AM               819 Mutations.js
+01/28/2016  12:08 AM               809 Pig Latin.js
+01/28/2016  12:08 AM               302 Repeat a string repeat a string.js
+01/28/2016  12:08 AM               519 Return Largest Numbers in Arrays.js
+01/28/2016  12:08 AM               229 Reverse a String.js
+01/28/2016  12:08 AM               602 Roman Numeral Converter.js
+01/28/2016  12:08 AM               871 Search and Replace.js
+01/28/2016  12:08 AM               592 Seek and Destroy.js
+01/28/2016  12:08 AM               414 Slasher Flick.js
+01/28/2016  12:08 AM               912 Sorted Union.js
+01/28/2016  12:08 AM               326 Spinal Tap Case.js
+01/28/2016  12:08 AM               384 Steamroller.js
+01/28/2016  12:08 AM               424 Sum All Numbers in a Range.js
+01/28/2016  12:08 AM               706 Title Case a Sentence.js
+01/28/2016  12:08 AM               688 Truncate a string.js
+01/28/2016  12:08 AM               435 UsingGeolocation.js
+01/28/2016  12:08 AM             1,353 Where art thou.js
+01/28/2016  12:08 AM               692 Where do I belong.js
+              34 File(s)         20,227 bytes
+               2 Dir(s)  661,841,235,968 bytes free
