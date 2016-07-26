@@ -58,6 +58,7 @@ This folder contains stand alone code. Each does domething different and is here
 ######[Roman Numeral Converter.js](Loose Code/Roman Numeral Converter.js)
 ######[Search and Replace.js](Loose Code/Search and Replace.js)
 ######[Seek and Destroy.js](Loose Code/Seek and Destroy.js)
+######[SigmoidFunction.js](Loose Code/SigmoidFunction.js)
 ######[Slasher Flick.js](Loose Code/Slasher Flick.js)
 ######[Sorted Union.js](Loose Code/Sorted Union.js)
 ######[Spinal Tap Case.js](Loose Code/Spinal Tap Case.js)
