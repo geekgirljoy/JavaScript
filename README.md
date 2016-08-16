@@ -34,7 +34,7 @@ This tool will help you figure out how much you should tip.
 
 
 ##Loose Code
-This folder contains stand alone code. Each does domething different and is here because I want a backup of this code for any number of reasons.                                
+This folder contains stand alone code. Each does something different and is here because I want a backup of this code for any number of reasons.                                
 ######[Arguments Optional.js](Loose Code/Arguments Optional.js)
 ######[Binary Agents.js](Loose Code/Binary Agents.js)
 ######[Boo who.js](Loose Code/Boo who.js)
