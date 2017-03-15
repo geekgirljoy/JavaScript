@@ -33,7 +33,7 @@ An experament. Distances between planets are to scale and they rotate at a speed
 This tool will help you figure out how much you should tip.
 
 
-## Loose%20Code
+## Loose Code
 This folder contains stand alone code. Each does something different and is here because I want a backup of this code for any number of reasons.                                
 ###### [Arguments Optional.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Arguments%20Optional.js)
 ###### [Binary Agents.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Binary%20Agents.js)
