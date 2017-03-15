@@ -5,7 +5,7 @@ Essentially this repository is an ever growing backup of all my public HTML & Ja
 
 ## JavaScript Projects
 
-###### [3D Printed Part Material Cost Calculator](Projects/3D Printed Part Material Cost Calculator)
+###### [3D Printed Part Material Cost Calculator](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/3D%20Printed%20Part%20Material%20Cost%20Calculator)
 This tool will help you figure out your material costs when 3D Printing a part.
 
 ###### [Animated Photo Gallery](Projects/Animated Photo Gallery)
