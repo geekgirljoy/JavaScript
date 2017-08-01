@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Playable SVG & PNG Keyboard</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <style>
         body {
             margin: 0;
