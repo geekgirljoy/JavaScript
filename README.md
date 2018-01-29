@@ -26,6 +26,9 @@ Examples of the Bootstrap Grid System.
 ###### [Random Quote Machine](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/Random%20Quote%20Machine)
 A random quote machine loaded with some of my favorite quotes.
 
+###### [Roller](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/Roller)
+An HTML + SVG + JQuery Die Roller App.
+
 ###### [The Sol System](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/The%20Sol%20System)
 An experiment. Distances between planets are to scale and they rotate at a speed of 1 second = 1 day, so Earth completes it's rotation in 365 seconds and Pluto  takes a little over 25 hours.  I have to fix the zoom since pluto is so far off screen you can't see it.
 
