@@ -75,7 +75,7 @@ This folder contains stand alone code. Each does something different and is here
 ###### [Truncate a string.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Truncate%20a%20string.js)
 ###### [UsingGeolocation.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/UsingGeolocation.js)
 ###### [Where art thou.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Where%20art%20thou.js)
-###### [Where do I belong.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Wherevdo%20I%20belong.js)
+###### [Where do I belong.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Where%20do%20I%20belong.js)
 
 
 
