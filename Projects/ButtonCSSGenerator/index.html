@@ -1,0 +1,85 @@
+<html>
+<head>
+  <title>Random Button</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+  <!-- Title -->
+  <h1>Random Button CSS Generator</h1>
+     
+    <!-- Show CSS -->
+    <div id="#show-css-wrapper">
+        <div id="show-css">
+            <h2 id="show-css-title">Button CSS</h2>
+            <p>Select a button to view it's CSS styles</p>
+            <textarea id="css-styles">CSS will show here</textarea>        
+        </div>
+    </div>
+
+    <!-- Table -->
+    <table> 
+      <tr>
+          <td></td>
+          <td>
+              <h3>
+                  <a href="">
+                      <button id="randomize">
+                          Randomize
+                      </button>
+                  </a>
+              </h3>
+          </td>
+          <td></td>
+      </tr>
+         <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><button id="button-1" onclick="ShowCSS(this)">Button 1</button></td>
+        <td><button id="button-2" onclick="ShowCSS(this)">Button 2</button></td>
+        <td><button id="button-3" onclick="ShowCSS(this)">Button 3</button></td>
+      </tr>
+      <tr>
+        <td><button id="button-4" onclick="ShowCSS(this)">Button 4</button></td>
+        <td><button id="button-5" onclick="ShowCSS(this)">Button 5</button></td>
+        <td><button id="button-6" onclick="ShowCSS(this)">Button 6</button></td>
+      </tr>
+        <tr>
+        <td><button id="button-7" onclick="ShowCSS(this)">Button 7</button></td>
+        <td><button id="button-8" onclick="ShowCSS(this)">Button 8</button></td>
+        <td><button id="button-9" onclick="ShowCSS(this)">Button 9</button></td>
+      </tr>
+    </table>
+
+ 
+    <!-- Include the Functions -->
+    <script src="functions.js"></script>    
+    <script>
+    // Button Element ID's
+    var elementsIDs = ['button-1', 'button-2', 'button-3', 'button-4', 'button-5', 'button-6', 'button-7', 'button-8', 'button-9'];
+
+    var buttons = []; // Array to Store Button References
+
+    // Setup Element References to the Buttons
+    elementsIDs.forEach(element => {
+      buttons.push(document.getElementById(element));
+    });
+
+    // Apply Random CSS to each Button
+    buttons.forEach(element => {
+      SetBackgroundColor(element); // Set Initial Background Colors
+      SetFontColor(element);       // Set Initial Font Colors
+
+      if(CoinFlip() == 1){ // Has border?
+        SetBorderColor(element);
+        SetBorderWidth(element);
+        SetBorderStyle(element);
+      }
+       
+    });
+
+    </script>
+</body>
+</html>
