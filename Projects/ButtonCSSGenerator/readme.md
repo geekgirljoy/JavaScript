@@ -2,7 +2,7 @@
 
 **Readme:** [link will be here](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/ButtonCSSGenerator)
 
-**Live Preview:** [link will be here](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/ButtonCSSGenerator)
+**Live Preview:** [https://geekgirljoy.000webhostapp.com/generate-a-button/index.html](https://geekgirljoy.000webhostapp.com/generate-a-button/index.html)
 
 ##  Screenshots:
 
