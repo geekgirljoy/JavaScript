@@ -23,7 +23,7 @@ function RandomRGBColor(){
 // Set SetBackgroundColor()
 function SetBackgroundColor(element, color = null){
     // No color given so set to random
-    if(color == null){
+    if(color === null){
         element.style.backgroundColor = 'rgb(' + RandomRGBColor() + ')';
     }else{ // Set to provided color
         element.style.backgroundColor = 'rgb(' + color + ')';
@@ -33,7 +33,7 @@ function SetBackgroundColor(element, color = null){
 // Set SetFontColor()
 function SetFontColor(element, color = null){
     // No color given so set to random
-    if(color == null){
+    if(color === null){
         element.style.color = 'rgb(' + RandomRGBColor() + ')';
     }else{ // Set to provided color
         element.style.color = 'rgb(' + color + ')';
@@ -43,7 +43,7 @@ function SetFontColor(element, color = null){
 // Set SetBorderColor()
 function SetBorderColor(element, color = null){
     // No color given so set to random
-    if(color == null){
+    if(color === null){
         element.style.borderColor = 'rgb(' + RandomRGBColor() + ')';
     }else{ // Set to provided color
         element.style.borderColor = 'rgb(' + color + ')';
@@ -53,7 +53,7 @@ function SetBorderColor(element, color = null){
 // Set SetBorderWidth()
 function SetBorderWidth(element, width = null){
     // No width given so set to random
-    if(width == null){
+    if(width === null){
         element.style.borderWidth = Math.floor(Math.random() * 14).toString() +'px';
     }else{ // Set to provided color
         element.style.borderWidth = width.toString() + 'px';
@@ -63,7 +63,7 @@ function SetBorderWidth(element, width = null){
 // Set SetBorderStyle()
 function SetBorderStyle(element, style = null){
     // No width given so set to random
-    if(style == null){
+    if(style === null){
         
         var styles = ['none', 'hidden', 'dotted', 'dashed', 'solid', 'double', 'groove', 'ridge', 'inset', 'outset', 'initial', 'inherit'];
         
