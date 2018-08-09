@@ -1,6 +1,6 @@
 # Button CSS Generator 
 
-**Readme:** [link will be here](https://github.com/geekgirljoy/JavaScript/tree/master/Projects/ButtonCSSGenerator)
+**Readme:** [https://geekgirljoy.wordpress.com/2018/08/09/button-css-generator/](https://geekgirljoy.wordpress.com/2018/08/09/button-css-generator/)
 
 **Live Preview:** [https://geekgirljoy.000webhostapp.com/generate-a-button/index.html](https://geekgirljoy.000webhostapp.com/generate-a-button/index.html)
 
