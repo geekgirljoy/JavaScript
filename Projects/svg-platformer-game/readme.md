@@ -2,6 +2,8 @@
 
 **Readme:** [Readme](https://geekgirljoy.wordpress.com/)
 
+Note that you have to click the page before the game will play properly. 
+
 **Live Preview:** [https://geekgirljoy.000webhostapp.com/svg-platformer-game/index.html](https://geekgirljoy.000webhostapp.com/svg-platformer-game/index.html)
 
 ##  Preview:
