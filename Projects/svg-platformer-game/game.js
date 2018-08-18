@@ -65,14 +65,14 @@ if(game){
     }
       
     // Get Bank Total
-    // Get the number of dimonds or coins the player has
+    // Get the number of diamond or coins the player has
     function GetBankTotal(element){
       var currentValue = element.textContent;
       return parseInt(currentValue);
     }
     
     // Collect 
-    // Increment the Coin or a Dimond "player bank"
+    // Increment the Coin or a Diamond "player bank"
     function Collect(element){
       element.textContent = GetBankTotal(element) + 1;
     }
@@ -93,7 +93,7 @@ if(game){
     var gameOverMenu = game.getElementById("gameovermenu");  // Game over screen element
     var player = game.getElementById("player");              // The player element
     var playerCoins = game.getElementById("playercoins");    // The "bank" element showing how many coins the player has collected
-    var playerDimonds = game.getElementById("playerdimonds");// The "bank" element showing how many dimonds the player has collected
+    var playerDiamonds = game.getElementById("playerdiamonds");// The "bank" element showing how many diamond the player has collected
 
     //  Setup references to the "named" SVG XML coin elements
     var coinPieces = ['coin1', 'coin2'];
@@ -102,11 +102,11 @@ if(game){
       coins.push(document.getElementById(element));
     });
         
-    // Setup references to the "named" SVG XML dimond elements
-    var dimondPieces = ['dimond1'];
-    var dimonds = [];
-    dimondPieces.forEach(element => {
-      dimonds.push(document.getElementById(element));
+    // Setup references to the "named" SVG XML diamond elements
+    var diamondPieces = ['diamond1'];
+    var diamond = [];
+    diamondPieces.forEach(element => {
+      diamond.push(document.getElementById(element));
     });
 
     // Setup references to the "named" SVG XML ground elements
@@ -116,7 +116,7 @@ if(game){
       terrain.push(document.getElementById(element));
     });
 
-    var winningBankTotal = dimondPieces.length + coinPieces.length;
+    var winningBankTotal = diamondPieces.length + coinPieces.length;
 
 
     // Clear the instructions after 3 seconds
@@ -193,16 +193,16 @@ if(game){
         }
       });
 
-      // Collect dimonds
-      dimonds.forEach(dimond => {
-        if(Inside(player, dimond)){
-          dimond.remove();
-          Collect(playerDimonds);
+      // Collect diamond
+      diamond.forEach(diamond => {
+        if(Inside(player, diamond)){
+          diamond.remove();
+          Collect(playerDiamonds);
         }
       }); 
 
       // Check for Win
-      if((GetBankTotal(playerDimonds) + GetBankTotal(playerCoins)) == winningBankTotal){
+      if((GetBankTotal(playerDiamonds) + GetBankTotal(playerCoins)) == winningBankTotal){
         clearInterval(gameLoop); // stop the game
         fall = false; // stop falling
         allowedToJump = false; // dont allow jumping
