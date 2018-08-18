@@ -1,6 +1,6 @@
 # SVG Platformer Game
 
-**Readme:** [Readme](https://geekgirljoy.wordpress.com/)
+**Readme:** [https://geekgirljoy.wordpress.com/2018/08/18/svg-platformer/](https://geekgirljoy.wordpress.com/2018/08/18/svg-platformer/)
 
 Note that you have to click the page before the game will play properly. 
 
