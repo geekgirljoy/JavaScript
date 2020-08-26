@@ -61,6 +61,7 @@ This folder contains stand alone code. Each does something different and is here
 ###### [Missing letters.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Missing%20letters.js)
 ###### [Mutations.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Mutations.js)
 ###### [Pig Latin.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Pig%20Latin.js)
+###### [RGB_HSL.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/RGB_HSL.js)
 ###### [RandomEvenOddBitwise.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/RandomEvenOddBitwise.js)
 ###### [Repeat a string repeat a string.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Repeat%20a%20string%20repeat%20a%20string.js)
 ###### [Return Largest Numbers in Arrays.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Return%20Largest%20Numbers%20in%20Arrays.js)
