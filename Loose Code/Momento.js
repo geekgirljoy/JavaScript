@@ -63,6 +63,6 @@ console.log("State After Change: " + Originator.state); // Bar
 Originator.setMemento(Caretaker.getMemento(0));
 console.log("State After Undo: " + Originator.state); // Foo
 
-// restore the first state - redo
+// restore the second state - redo
 Originator.setMemento(Caretaker.getMemento(1));
 console.log("State After Redo: " + Originator.state); // Bar
