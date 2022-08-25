@@ -1,3 +1,4 @@
+// https://en.wikipedia.org/wiki/Memento_pattern
 
 // The Momento pattern is used to save and restore the state of an object.
 // A memento is a snapshot of an object's state.
