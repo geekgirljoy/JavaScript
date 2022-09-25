@@ -59,7 +59,7 @@ This folder contains stand alone code. Each does something different and is here
 ###### [Falsy Bouncer.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Falsy%20Bouncer.js)
 ###### [Find the Longest Word in a String.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Find%20the%20Longest%20Word%20in%20a%20String.js)
 ###### [Missing letters.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Missing%20letters.js)
-###### [Momento.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Momento.js)
+###### [Memento.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Memento.js)
 ###### [Mutations.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Mutations.js)
 ###### [Pig Latin.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/Pig%20Latin.js)
 ###### [RGB_HSL.js](https://github.com/geekgirljoy/JavaScript/blob/master/Loose%20Code/RGB_HSL.js)
